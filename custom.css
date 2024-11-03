@@ -1,0 +1,91 @@
+/* Estilos globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container de login */
+.login-container,
+.dashboard-container {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Grupos de entrada */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botões */
+button {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #165bde;
+}
+
+/* Link para criar conta */
+.create-account {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+/* Botão de logout */
+#logoutButton {
+    margin-top: 20px;
+    background-color: #e4e6eb;
+    color: #050505;
+}
+
+#logoutButton:hover {
+    background-color: #d8dadd;
+}
